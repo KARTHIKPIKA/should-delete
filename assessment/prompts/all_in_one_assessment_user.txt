@@ -1,0 +1,6 @@
+# Eligibility Criterion
+The eligibility criterion being assessed is:
+{criterion_description}
+
+# Current Date
+Assume that the current date is: {assessment_as_of_date}

@@ -1,0 +1,30 @@
+Main Understanding of Pipeline :-
+
+
+XML medical records
+        ↓
+generate_dataset.py
+(text → images + dataset)
+        ↓
+generate_embeddings.py
+(images → vectors → FAISS)
+        ↓
+assess_criteria.py
+(retrieval + LLM reasoning)
+        ↓
+generate_metrics.py
+(evaluation)
+
+
+
+## What does Langfuse track?
+
+| It monitors | Example |
+|-------------|---------|
+| **LLM calls** | what prompt went in, what came out |
+| **Latency** | how long each call took |
+| **Token usage** | how many tokens consumed |
+| **Cost** | how much each call cost |
+| **Errors** | what failed and why |
+| **User feedback** | thumbs up/down on responses |
+

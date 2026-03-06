@@ -1,0 +1,3 @@
+# Eligibility Criterion
+The eligibility criterion to assess is:
+{criterion_description}
